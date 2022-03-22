@@ -1,1 +1,1 @@
-This is a simple App to get inspiration from for every day life.
+This is a simple App to get inspiration for every day life.
