@@ -1,1 +1,1 @@
-This is a simple App to get inspiration for every day life.
+This is a simple App to get inspiration for every day life. This App is targeted to collect quotes that are popular and we are attaching the database to an api and displaying it to a website that we have already deployed on the app engine.
