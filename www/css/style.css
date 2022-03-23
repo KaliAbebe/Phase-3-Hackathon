@@ -11,14 +11,15 @@ body {
 }
 .container {
   margin: 200px auto;
-  width: 500 px;
+  width: auto;
   display: flex;
   flex-direction: column;
 }
 .quote-box {
-  border: 5px solid #ddd;
-  padding: 30px 20;
+  border: 10px solid #ddd;
+  padding: auto;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 #quote {
   color: #444;
@@ -27,12 +28,13 @@ body {
 #author {
   float: right;
   color: rgb(235, 225, 225);
-  width: 300px;
+  width: auto;
   height: 10px;
   font-weight: bold;
   font-style: italic;
   margin-top: 10px;
-  background-color: rgb(130, 130, 241);
+  background-color: rgb(56, 56, 238);
+  border: 10px solid rgb(7, 44, 207);
 }
 
 #btn {
@@ -44,6 +46,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   background-color: rgb(50, 50, 245);
+  border: 10px solid rgb(7, 44, 207);
 }
 
 #btn:focus {
@@ -53,6 +56,7 @@ button {
   background: #2c50f3;
   border: 0;
   text-transform: uppercase;
+  border: 10px solid rgb(7, 44, 207);
 }
 button:hover,
 .contact form button:focus {
@@ -60,6 +64,7 @@ button:hover,
   color: #fff;
   outline: 0;
   transition: background-color 2s ease-out;
+  border: 10px solid rgb(7, 44, 207);
 }
 p {
   margin: 0;
@@ -67,7 +72,8 @@ p {
 button,
 .contact form input,
 .contact form textarea {
-  width: 20%;
+  width: auto;
   padding: 1em;
-  border: 1px solid #2a2df8;
+  border: auto solid #2a2df8;
+  border: 10px solid rgb(7, 44, 207);
 }
